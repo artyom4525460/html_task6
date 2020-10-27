@@ -1,0 +1,84 @@
+.orders-header{
+    .tabs{
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: space-around;
+        .tab{
+            padding: 45px 110px;
+            @media screen and (max-width: $max-width){
+                padding: 4vw 9.77vw;
+            }
+        }
+    }
+}
+
+.orders-section{
+    padding-top: 60px;
+    @media screen and (max-width: $max-width){
+        padding-top: 5.33vw;
+    }
+    .contact-block{
+        height: 260px;
+        @media screen and (max-width: $max-width){
+            height: 23.11vw;
+        }
+
+        .contact-item{
+            background-color: inherit;
+            padding: 21px 70px 21px 0;
+            width: fit-content;
+            float: left;
+            
+            @media screen and (max-width: $max-width){
+                padding: 1.86vw 6.22vw 1.86vw 0;
+            }
+            img{
+                width: 35px;
+                margin-right: 20px;
+                @media screen and (max-width: $max-width){
+                    width: 3.11vw; 
+                    margin-right: 1.77vw;
+                }
+            }
+        }
+        .contact-title-item{
+            font-size: 45px;
+            line-height: 60px;
+            color: $blue;
+            font-weight: bold;
+            padding: 0;
+            float: initial;
+            padding-bottom: 21px;
+
+            @media screen and (max-width: $max-width){
+                padding-bottom: 1.86vw;
+                font-size: 4vw;
+                line-height: 5.33vw;  
+            }
+        }
+    }
+    .lead-block{
+        font-weight: bold;
+    }
+    .light-blue-button{
+        width: 200px;
+        @media screen and (max-width: $max-width){
+            width: 17.77vw;
+        }
+    }
+
+    .lead-item{
+        filter: drop-shadow(0px 40px 23px rgba(0,0,0,0.05));
+        background-color: #ffffff;
+        @media screen and (max-width: $max-width){
+            filter: drop-shadow(0px 3.55vw 2.04vw rgba(0,0,0,0.05));
+        }
+    }
+
+    .grey-button{
+        margin-top: 30px;
+        @media screen and (max-width: $max-width){
+            margin-top: 2.66vw;
+        }
+    }
+}

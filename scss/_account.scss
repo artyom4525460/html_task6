@@ -1,0 +1,84 @@
+.account-header {
+    .title {
+        .arrow-header{
+            img{
+                width: 60px;
+                height: 53px;
+                @media screen and (max-width: $max-width){
+                    width: 5.33vw;
+                    height: 4.71vw;
+                }
+            }
+        }
+    }
+}
+
+.account-balance{
+    padding: 90px 0 20px;
+    @media screen and (max-width: $max-width){
+        padding: 8vw 0 1.77vw;
+    }
+    .title{
+        font-size: 45px;
+        color: #ffffff;
+        opacity: 0.6;
+        justify-content: flex-start;
+        @media screen and (max-width: $max-width){
+            font-size: 4vw;
+        }
+    }
+    .sum{
+        font-size: 120px;
+        color: #ffffff;
+        font-weight: bold;
+        @media screen and (max-width: $max-width){
+            font-size: 10.66vw;
+        }
+    }
+}
+
+.account-section{
+    .title{
+        padding: 100px 0 70px;
+        @media screen and (max-width: $max-width){
+            padding: 8.88vw 0 6.22vw;
+        }
+    }
+}
+
+.account-item{
+    .account-item-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 50px;
+        padding: 50px 0;
+        @media screen and (max-width: $max-width){
+            font-size: 4.44vw;
+            padding: 4.44vw 0;
+        }
+        .info{
+            .title{
+                font-weight: bold;
+                padding: 0;  
+                padding-bottom: 20px;
+                @media screen and (max-width: $max-width){
+                    padding-bottom: 1.77vw; 
+                }
+            }
+            .date{
+                font-size: 40px;
+                opacity: 0.8;
+                @media screen and (max-width: $max-width){
+                    font-size: 3.55vw;
+                }
+            }
+        }
+        .sum{
+            font-weight: bold;
+            &.reduce{
+                color: #ef4444;
+            }
+        }
+    }
+}

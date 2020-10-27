@@ -1,0 +1,106 @@
+/*
+    DEFAULT
+*/
+
+$max-width: 1125px;
+
+/* colors: */
+
+$blue: #2f89fc;
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fdfdfd;
+    font-family: "Gilroy", Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    font-size: 40px;
+    color: #292929;
+    @media screen and (max-width: $max-width) {
+        font-size: 3.55vw;
+    }
+}
+
+html,
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+section {
+    padding: 0 55px;
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    box-sizing: border-box;
+    @media screen and (max-width: $max-width) {
+        padding: 0 4.88vw;
+    }
+}
+
+.title {
+    font-size: 60px;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px 0 20px;
+    @media screen and (max-width: $max-width) {
+        font-size: 5.33vw;
+        padding: 0.88vw 0 1.77vw;
+    }
+}
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: $blue;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #d4d4d4;
+    margin: 0;
+    margin-left: -55px;
+    margin-right: -55px;
+    @media screen and (max-width: $max-width) {
+        margin-left: -4.88vw;
+        margin-right: -4.88vw;
+    }
+}
+
+.no-margins {
+    margin: 0 !important;
+}
+
+.blur {
+    filter: blur(15px) !important;
+    @media screen and (max-width: $max-width) {
+        filter: blur(1.5vw) !important;
+    }
+    * {
+        cursor: auto !important;
+    }
+}
+
+.blue-text{
+    color: $blue;
+}
+
+
+.logo{
+    padding: 150px 0 140px;
+    font-size: 80px;
+    color: #000000;
+    font-weight: 800;
+    @media screen and (max-width: $max-width){
+        padding: 13.3vw 0 12.44vw;
+        font-size: 7.11vw;
+    }
+}

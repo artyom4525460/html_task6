@@ -1,0 +1,36 @@
+.login-header{
+    padding: 0;
+    background-color: #fff;
+    .login-header-img{
+        img{
+            max-width: 100%;
+        }
+    }
+}
+
+.login-section{
+    padding: 0 100px 100px;
+    @media screen and (max-width: $max-width){
+        padding: 0 8.88vw 8.88vw;
+    }
+    .logo{
+
+    }
+    .text{
+        padding: 30px 0 85px;
+        @media screen and (max-width: $max-width){
+            padding: 2.66vw 0 7.55vw;
+        }
+    }
+    hr{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .button-block{
+        padding: 120px 0;
+        @media screen and (max-width: $max-width){
+            padding: 10.66vw 0;
+        }
+    }
+}
+

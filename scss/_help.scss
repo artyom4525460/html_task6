@@ -1,0 +1,113 @@
+.help-header{
+    padding-bottom: 60px;
+    padding-top: 160px;
+    @media screen and (max-width: $max-width){
+        padding-bottom: 5.33vw;
+        padding-top: 14.22vw;
+    }
+    .title{
+        .location{
+            font-size: 55px;
+            @media screen and (max-width: $max-width){
+                font-size: 4.88vw;
+            }
+        }
+    }
+}
+
+.help-video{
+    position: relative;
+    padding: 0;
+    img{
+        max-width: 100%;
+    }
+    .video-title{
+        font-size: 50px;
+        color: #ffffff;
+        font-weight: bold; 
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+        @media screen and (max-width: $max-width){
+            font-size: 4.44vw;
+            bottom: 4.44vw;
+            left: 4.44vw;
+        }
+    }
+}
+
+.help-section{
+    .title{
+        padding: 80px 0 50px;
+        @media screen and (max-width: $max-width){
+            padding: 7.11vw 0 4.44vw;
+        }
+    }
+    .text{
+        line-height: 60px;
+        color: #0e1f37;
+        font-weight: 500;
+        padding-bottom: 80px;
+        @media screen and (max-width: $max-width){
+            line-height: 5.33vw;
+            padding-bottom: 7.11vw;
+        }
+    }
+    padding-bottom: 160px;
+    @media screen and (max-width: $max-width){
+        padding-bottom: 14.22vw;
+    }
+}
+
+.contact-item{
+    padding: 38px;
+    border-radius: 20px;
+    background-color: rgba($color: $blue, $alpha: 0.1);
+    display: flex;
+    @media screen and (max-width: $max-width){
+        padding: 3.37vw;
+        border-radius: 1.77vw;
+    }
+    .info{
+        padding: 0 32px;
+        @media screen and (max-width: $max-width){
+            padding: 0 2.84vw;
+        }
+        .item{
+            font-size: 45px;
+            line-height: 60px;
+            color: #0e1f37;
+            font-weight: bold; 
+            @media screen and (max-width: $max-width){
+                font-size: 4vw;
+                line-height: 5.33vw; 
+            }
+            &.number{
+                color: $blue;
+            }
+        }
+    }
+}
+
+.phone-block{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: $max-width){
+        width: 10.66vw;
+        height: 10.66vw;
+        border-radius: 5.33vw;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        @media screen and (max-width: $max-width){
+            width: 4.44vw;
+            height: 4.44vw;
+        }
+    }
+}
